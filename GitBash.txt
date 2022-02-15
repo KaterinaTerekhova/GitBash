@@ -1,0 +1,38 @@
+1.	Where am  I  == pwd
+2.	Create folder  == mkdir Store
+3.	Open folder == cd Store
+4.	Create 3 folders == mkdir TJMaxx Homegoods Marshalls
+5.	Open any folder = cd Homegoods
+6.	Create the files = = touch Plate.txt Cups.txt Pots.txt Shoes.json Men.json
+7.	Create here 3 folders == mkdir Kids Glass Mirror
+8.	Open list  == Ls  –la
+9.	Open any file == cat Plate.txt
+10.	Write text == vim Plate.txt 
+11.	and save it == Esc :wq
+12.	Up for 1 level == cd ..
+13.	Move 2 files == cd /Store/Homegoods
+                             Ls –la
+                             mv Shoes.json  Mens.json /Kids
+14.	Copy 2 files == cp Cups.txt Pots.txt /Store/TJMaxx
+15.	Find file == find  –iname “Pots.txt”
+16.	View info at real time == tail –F Pots.txt
+17.	Take off 2-3 strings of file == head –n 2 Plate.txt
+         Tail –n 5 Plate.txt
+18.	View content of long file == less  Plate.txt
+19.	Date
+20.	Send request == curl  http:// 162.55……
+21.	Write script
+touch  script.txt
+Ls  -l
+Vim script.txt
+cd ~
+cd /d/Store
+ls -l
+mkdir Finance
+cd /d/Store/Finance
+mkdir Cash Check Invoice
+cd Cash
+touch Dollar.txt Rub.txt Euro.txt Yuan.json
+mkdir Transfer Deposit
+ls -l
+mv Dollar.txt Rub.txt /d/Store/Finance/Check
